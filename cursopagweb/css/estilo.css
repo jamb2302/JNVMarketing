@@ -1,0 +1,76 @@
+html {
+
+    font-size: 1rem;
+}
+
+body {
+    background-image: url(/imagenes/4935872.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #6f02c5;
+    position: sticky;
+    top: 0; 
+    box-shadow: 0px 3px 6px rgb(0,0, 0);
+    z-index: 20;
+}
+
+.nav {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 3%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li a {
+    padding: 10px;
+}
+
+
+.pcolor {
+    color:#ddcbff;
+}
+
+footer {
+    background-color: #ddcbff;
+}
+
+.fa-instagram {
+    font-size: 50px;
+    color: #6f02c5;
+}
+
+.fa-facebook {
+    font-size: 50px;
+    color: #6f02c5; 
+}
+
+.fa-whatsapp {
+    font-size: 50px;
+    color: #6f02c5; 
+}
+
+.fa-tiktok {
+    font-size: 50px;
+    color: #6f02c5; 
+}
+
+.fa-twitter {
+    font-size: 50px;
+    color: #6f02c5; 
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.item {
+    grid-column: 2 / 3;
+}
